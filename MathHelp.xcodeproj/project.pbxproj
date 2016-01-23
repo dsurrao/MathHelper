@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B074B7813801FF80084F63E /* DivisionRemainderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */; };
+		0B074B7913801FF80084F63E /* DivisionRemainderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B074B7713801FF80084F63E /* DivisionRemainderViewController.xib */; };
+		0B09391C148617F6001B02C1 /* DivisionRemainderMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B09391A148617F6001B02C1 /* DivisionRemainderMainViewController.m */; };
+		0B09391D148617F6001B02C1 /* DivisionRemainderMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B09391B148617F6001B02C1 /* DivisionRemainderMainViewController.xib */; };
+		0B2C990411D661540074C897 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C990311D661540074C897 /* Utilities.m */; };
+		0B5D686F1BB76B27005C2958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D686E1BB76B27005C2958 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0B69AB4F1BC07BD500371159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69AB4E1BC07BD500371159 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		0B8081B8139A10B8006A315A /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8081B7139A10B8006A315A /* Step.m */; };
+		0B8081BD139A10DB006A315A /* DivisionStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8081BC139A10DB006A315A /* DivisionStep.m */; };
+		0B8081C2139A1210006A315A /* MultiplicationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8081C1139A1210006A315A /* MultiplicationStep.m */; };
+		0B8081CD139A13AB006A315A /* SubtractionStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8081CC139A13AB006A315A /* SubtractionStep.m */; };
+		0B8081D2139A1512006A315A /* CarryStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8081D1139A1512006A315A /* CarryStep.m */; };
+		0B85A68E132BC51300DAEF6E /* MultiplicationMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B85A68D132BC51300DAEF6E /* MultiplicationMain.xib */; };
+		0B85A698132BC58500DAEF6E /* MultiplicationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B85A696132BC58500DAEF6E /* MultiplicationMainViewController.m */; };
+		0B85A6ED132BCFC200DAEF6E /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B85A6EC132BCFC200DAEF6E /* MainMenuController.m */; };
+		0B92D44C11C5C15600AFC056 /* DigitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B92D44B11C5C15600AFC056 /* DigitField.m */; };
+		0B970B3311BC01ED00853861 /* IntegerMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B970B3211BC01ED00853861 /* IntegerMultiplication.m */; };
+		0B970B3A11BC028B00853861 /* IntegerSubtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B970B3911BC028B00853861 /* IntegerSubtraction.m */; };
+		0B970B3F11BC02F500853861 /* IntegerDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B970B3E11BC02F500853861 /* IntegerDivision.m */; };
+		0B996DDB119F2E3900E03409 /* Division.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B996DDA119F2E3900E03409 /* Division.xib */; };
+		0B9DFF78134DDCAB00091544 /* problems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DFF77134DDCAB00091544 /* problems.plist */; };
+		0BA1E34212464136005910FA /* DivisionMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BA1E34112464136005910FA /* DivisionMain.xib */; };
+		0BA1E36612464428005910FA /* DivisionMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1E36512464428005910FA /* DivisionMainViewController.m */; };
+		0BA67EA312A1A401002DC328 /* multiplication-problems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BA67EA212A1A401002DC328 /* multiplication-problems.plist */; };
+		0BABE5CC1BB8D93B009FB76E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BABE5CB1BB8D93B009FB76E /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		0BAFE5EB11A0CDC500A8D90D /* DivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */; };
+		0BB16FAB11A9CEDC0063B100 /* NumberParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB16FAA11A9CEDC0063B100 /* NumberParser.m */; };
+		0BB7169D12045A5000182E90 /* CarryOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7169C12045A5000182E90 /* CarryOperation.m */; };
+		0BC05E871203C9C400E06FDC /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC05E861203C9C400E06FDC /* Operation.m */; };
+		0BC0F74912FDCFDC00DFE272 /* AdditionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */; };
+		0BC3937712F472BC0026ED3E /* MultiplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */; };
+		0BDF081212EB5C9900F11847 /* Multiplication.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BDF081112EB5C9900F11847 /* Multiplication.xib */; };
+		0BF0E7AD12F0407F008AD03E /* MultiplicationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */; };
+		1D3623260D0F684500981E51 /* MathHelpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MathHelpAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B074B7513801FF80084F63E /* DivisionRemainderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionRemainderViewController.h; sourceTree = "<group>"; };
+		0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DivisionRemainderViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0B074B7713801FF80084F63E /* DivisionRemainderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DivisionRemainderViewController.xib; sourceTree = "<group>"; };
+		0B093919148617F6001B02C1 /* DivisionRemainderMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionRemainderMainViewController.h; sourceTree = "<group>"; };
+		0B09391A148617F6001B02C1 /* DivisionRemainderMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionRemainderMainViewController.m; sourceTree = "<group>"; };
+		0B09391B148617F6001B02C1 /* DivisionRemainderMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DivisionRemainderMainViewController.xib; sourceTree = "<group>"; };
+		0B2C990211D661540074C897 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		0B2C990311D661540074C897 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		0B5D686E1BB76B27005C2958 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0B69AB4E1BC07BD500371159 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MathHelp/Images.xcassets; sourceTree = "<group>"; };
+		0B8081B6139A10B8006A315A /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		0B8081B7139A10B8006A315A /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		0B8081BB139A10DB006A315A /* DivisionStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionStep.h; sourceTree = "<group>"; };
+		0B8081BC139A10DB006A315A /* DivisionStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionStep.m; sourceTree = "<group>"; };
+		0B8081C0139A1210006A315A /* MultiplicationStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationStep.h; sourceTree = "<group>"; };
+		0B8081C1139A1210006A315A /* MultiplicationStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationStep.m; sourceTree = "<group>"; };
+		0B8081CB139A13AB006A315A /* SubtractionStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtractionStep.h; sourceTree = "<group>"; };
+		0B8081CC139A13AB006A315A /* SubtractionStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtractionStep.m; sourceTree = "<group>"; };
+		0B8081D0139A1512006A315A /* CarryStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarryStep.h; sourceTree = "<group>"; };
+		0B8081D1139A1512006A315A /* CarryStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CarryStep.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0B85A68D132BC51300DAEF6E /* MultiplicationMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiplicationMain.xib; sourceTree = "<group>"; };
+		0B85A695132BC58500DAEF6E /* MultiplicationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationMainViewController.h; sourceTree = "<group>"; };
+		0B85A696132BC58500DAEF6E /* MultiplicationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationMainViewController.m; sourceTree = "<group>"; };
+		0B85A6EB132BCFC200DAEF6E /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		0B85A6EC132BCFC200DAEF6E /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
+		0B92D44A11C5C15600AFC056 /* DigitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitField.h; sourceTree = "<group>"; };
+		0B92D44B11C5C15600AFC056 /* DigitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DigitField.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0B970B3111BC01ED00853861 /* IntegerMultiplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerMultiplication.h; sourceTree = "<group>"; };
+		0B970B3211BC01ED00853861 /* IntegerMultiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerMultiplication.m; sourceTree = "<group>"; };
+		0B970B3811BC028B00853861 /* IntegerSubtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerSubtraction.h; sourceTree = "<group>"; };
+		0B970B3911BC028B00853861 /* IntegerSubtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerSubtraction.m; sourceTree = "<group>"; };
+		0B970B3D11BC02F500853861 /* IntegerDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerDivision.h; sourceTree = "<group>"; };
+		0B970B3E11BC02F500853861 /* IntegerDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerDivision.m; sourceTree = "<group>"; };
+		0B996DDA119F2E3900E03409 /* Division.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Division.xib; sourceTree = "<group>"; };
+		0B9DFF77134DDCAB00091544 /* problems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = problems.plist; sourceTree = "<group>"; };
+		0BA1E34112464136005910FA /* DivisionMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DivisionMain.xib; sourceTree = "<group>"; };
+		0BA1E36412464428005910FA /* DivisionMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionMainViewController.h; sourceTree = "<group>"; };
+		0BA1E36512464428005910FA /* DivisionMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionMainViewController.m; sourceTree = "<group>"; };
+		0BA67EA212A1A401002DC328 /* multiplication-problems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "multiplication-problems.plist"; sourceTree = "<group>"; };
+		0BABE5CB1BB8D93B009FB76E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0BAFE5E911A0CDC500A8D90D /* DivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionViewController.h; sourceTree = "<group>"; };
+		0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionViewController.m; sourceTree = "<group>"; };
+		0BB16FA911A9CEDC0063B100 /* NumberParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberParser.h; sourceTree = "<group>"; };
+		0BB16FAA11A9CEDC0063B100 /* NumberParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberParser.m; sourceTree = "<group>"; };
+		0BB7169B12045A5000182E90 /* CarryOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarryOperation.h; sourceTree = "<group>"; };
+		0BB7169C12045A5000182E90 /* CarryOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarryOperation.m; sourceTree = "<group>"; };
+		0BBD5A3212B3F6CB00260F89 /* MathHelp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MathHelp-Info.plist"; sourceTree = "<group>"; };
+		0BC05E851203C9C400E06FDC /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		0BC05E861203C9C400E06FDC /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		0BC0F74712FDCFDC00DFE272 /* AdditionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionOperation.h; sourceTree = "<group>"; };
+		0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionOperation.m; sourceTree = "<group>"; };
+		0BC3937412F472BC0026ED3E /* MultiplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationViewController.h; sourceTree = "<group>"; };
+		0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationViewController.m; sourceTree = "<group>"; };
+		0BDF081112EB5C9900F11847 /* Multiplication.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Multiplication.xib; sourceTree = "<group>"; };
+		0BF0E7AB12F0407F008AD03E /* MultiplicationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationOperation.h; sourceTree = "<group>"; };
+		0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationOperation.m; sourceTree = "<group>"; };
+		0BFCE6EC12DC174B00C61B0E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MathHelpAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathHelpAppDelegate.h; path = Classes/MathHelpAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MathHelpAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MathHelpAppDelegate.m; path = Classes/MathHelpAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MathHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MathHelp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathHelp_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5D1A2F1BB5B41A00FB501D /* Computational */ = {
+			isa = PBXGroup;
+			children = (
+				0BB16FA911A9CEDC0063B100 /* NumberParser.h */,
+				0B8081D0139A1512006A315A /* CarryStep.h */,
+				0B8081D1139A1512006A315A /* CarryStep.m */,
+				0B8081CB139A13AB006A315A /* SubtractionStep.h */,
+				0B8081CC139A13AB006A315A /* SubtractionStep.m */,
+				0B8081BB139A10DB006A315A /* DivisionStep.h */,
+				0B8081C0139A1210006A315A /* MultiplicationStep.h */,
+				0B8081C1139A1210006A315A /* MultiplicationStep.m */,
+				0B8081BC139A10DB006A315A /* DivisionStep.m */,
+				0BF0E7AB12F0407F008AD03E /* MultiplicationOperation.h */,
+				0BC0F74712FDCFDC00DFE272 /* AdditionOperation.h */,
+				0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */,
+				0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */,
+				0BB7169B12045A5000182E90 /* CarryOperation.h */,
+				0BB7169C12045A5000182E90 /* CarryOperation.m */,
+				0BC05E851203C9C400E06FDC /* Operation.h */,
+				0BC05E861203C9C400E06FDC /* Operation.m */,
+				0B970B3D11BC02F500853861 /* IntegerDivision.h */,
+				0B92D44A11C5C15600AFC056 /* DigitField.h */,
+				0B92D44B11C5C15600AFC056 /* DigitField.m */,
+				0B970B3E11BC02F500853861 /* IntegerDivision.m */,
+				0B970B3111BC01ED00853861 /* IntegerMultiplication.h */,
+				0B2C990211D661540074C897 /* Utilities.h */,
+				0B2C990311D661540074C897 /* Utilities.m */,
+				0B970B3811BC028B00853861 /* IntegerSubtraction.h */,
+				0BB16FAA11A9CEDC0063B100 /* NumberParser.m */,
+				0B970B3911BC028B00853861 /* IntegerSubtraction.m */,
+				0B8081B6139A10B8006A315A /* Step.h */,
+				0B8081B7139A10B8006A315A /* Step.m */,
+				0B970B3211BC01ED00853861 /* IntegerMultiplication.m */,
+			);
+			name = Computational;
+			sourceTree = "<group>";
+		};
+		0B5D1A301BB5B4F100FB501D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFE5E911A0CDC500A8D90D /* DivisionViewController.h */,
+				0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */,
+				0BA1E36412464428005910FA /* DivisionMainViewController.h */,
+				0BA1E36512464428005910FA /* DivisionMainViewController.m */,
+				0BC3937412F472BC0026ED3E /* MultiplicationViewController.h */,
+				0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */,
+				0B85A695132BC58500DAEF6E /* MultiplicationMainViewController.h */,
+				0B85A696132BC58500DAEF6E /* MultiplicationMainViewController.m */,
+				0B074B7513801FF80084F63E /* DivisionRemainderViewController.h */,
+				0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */,
+				0B093919148617F6001B02C1 /* DivisionRemainderMainViewController.h */,
+				0B09391A148617F6001B02C1 /* DivisionRemainderMainViewController.m */,
+				0B85A6EB132BCFC200DAEF6E /* MainMenuController.h */,
+				0B85A6EC132BCFC200DAEF6E /* MainMenuController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0B5D1A321BB5B57100FB501D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0B074B7713801FF80084F63E /* DivisionRemainderViewController.xib */,
+				0B09391B148617F6001B02C1 /* DivisionRemainderMainViewController.xib */,
+				0B996DDA119F2E3900E03409 /* Division.xib */,
+				0BDF081112EB5C9900F11847 /* Multiplication.xib */,
+				0B85A68D132BC51300DAEF6E /* MultiplicationMain.xib */,
+				0BA1E34112464136005910FA /* DivisionMain.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		0B5D1A331BB5B5C700FB501D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D686E1BB76B27005C2958 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		0B5D1A341BB5B5D800FB501D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MathHelpAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MathHelpAppDelegate.m */,
+				32CA4F630368D1EE00C91783 /* MathHelp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MathHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0BABE5CB1BB8D93B009FB76E /* Default-568h@2x.png */,
+				0B5D1A341BB5B5D800FB501D /* Main */,
+				0B5D1A331BB5B5C700FB501D /* Storyboard */,
+				0B5D1A321BB5B57100FB501D /* Xibs */,
+				0B5D1A301BB5B4F100FB501D /* Controllers */,
+				0B5D1A2F1BB5B41A00FB501D /* Computational */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B69AB4E1BC07BD500371159 /* Images.xcassets */,
+				0BFCE6EC12DC174B00C61B0E /* Entitlements.plist */,
+				0B9DFF77134DDCAB00091544 /* problems.plist */,
+				0BBD5A3212B3F6CB00260F89 /* MathHelp-Info.plist */,
+				0BA67EA212A1A401002DC328 /* multiplication-problems.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MathHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MathHelp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathHelp;
+			productName = MathHelp;
+			productReference = 1D6058910D05DD3D006BFB54 /* MathHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MathHelp;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 8P6T72YS6L;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MathHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MathHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B996DDB119F2E3900E03409 /* Division.xib in Resources */,
+				0BABE5CC1BB8D93B009FB76E /* Default-568h@2x.png in Resources */,
+				0BA1E34212464136005910FA /* DivisionMain.xib in Resources */,
+				0BA67EA312A1A401002DC328 /* multiplication-problems.plist in Resources */,
+				0B5D686F1BB76B27005C2958 /* Main.storyboard in Resources */,
+				0BDF081212EB5C9900F11847 /* Multiplication.xib in Resources */,
+				0B85A68E132BC51300DAEF6E /* MultiplicationMain.xib in Resources */,
+				0B9DFF78134DDCAB00091544 /* problems.plist in Resources */,
+				0B69AB4F1BC07BD500371159 /* Images.xcassets in Resources */,
+				0B074B7913801FF80084F63E /* DivisionRemainderViewController.xib in Resources */,
+				0B09391D148617F6001B02C1 /* DivisionRemainderMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MathHelpAppDelegate.m in Sources */,
+				0BAFE5EB11A0CDC500A8D90D /* DivisionViewController.m in Sources */,
+				0BB16FAB11A9CEDC0063B100 /* NumberParser.m in Sources */,
+				0B970B3311BC01ED00853861 /* IntegerMultiplication.m in Sources */,
+				0B970B3A11BC028B00853861 /* IntegerSubtraction.m in Sources */,
+				0B970B3F11BC02F500853861 /* IntegerDivision.m in Sources */,
+				0B92D44C11C5C15600AFC056 /* DigitField.m in Sources */,
+				0B2C990411D661540074C897 /* Utilities.m in Sources */,
+				0BC05E871203C9C400E06FDC /* Operation.m in Sources */,
+				0BB7169D12045A5000182E90 /* CarryOperation.m in Sources */,
+				0BA1E36612464428005910FA /* DivisionMainViewController.m in Sources */,
+				0BF0E7AD12F0407F008AD03E /* MultiplicationOperation.m in Sources */,
+				0BC3937712F472BC0026ED3E /* MultiplicationViewController.m in Sources */,
+				0BC0F74912FDCFDC00DFE272 /* AdditionOperation.m in Sources */,
+				0B85A698132BC58500DAEF6E /* MultiplicationMainViewController.m in Sources */,
+				0B85A6ED132BCFC200DAEF6E /* MainMenuController.m in Sources */,
+				0B074B7813801FF80084F63E /* DivisionRemainderViewController.m in Sources */,
+				0B8081B8139A10B8006A315A /* Step.m in Sources */,
+				0B8081BD139A10DB006A315A /* DivisionStep.m in Sources */,
+				0B8081C2139A1210006A315A /* MultiplicationStep.m in Sources */,
+				0B8081CD139A13AB006A315A /* SubtractionStep.m in Sources */,
+				0B8081D2139A1512006A315A /* CarryStep.m in Sources */,
+				0B09391C148617F6001B02C1 /* DivisionRemainderMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BFCE6E212DC15F400C61B0E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		0BFCE6E312DC15F400C61B0E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Projects/MathHelp/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MathHelp_Prefix.pch;
+				INFOPLIST_FILE = "MathHelp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepbystep.mathhelp;
+				PRODUCT_NAME = MathHelp;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Projects/MathHelp/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MathHelp_Prefix.pch;
+				INFOPLIST_FILE = "MathHelp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepbystep.mathhelp;
+				PRODUCT_NAME = MathHelp;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Projects/MathHelp/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MathHelp_Prefix.pch;
+				INFOPLIST_FILE = "MathHelp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepbystep.mathhelp;
+				PRODUCT_NAME = MathHelp;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dominic Surrao (YHWRJ7D9AJ)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MathHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				0BFCE6E312DC15F400C61B0E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MathHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				0BFCE6E212DC15F400C61B0E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

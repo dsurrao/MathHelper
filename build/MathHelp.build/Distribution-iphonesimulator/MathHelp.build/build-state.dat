@@ -1,0 +1,892 @@
+TMathHelp
+v7
+r0
+t322252859.531237
+cCheck dependencies
+cProcessInfoPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Info.plist MathHelp-Info.plist
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/Division.xib
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib
+cCopyPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/multiplication-problems.plist multiplication-problems.plist
+cCopyPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp-Info.plist MathHelp-Info.plist
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib
+cCpResource build/Distribution-iphonesimulator/MathHelp.app/icon.png icon.png
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib
+cCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib
+cProcessPCH /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch.gch MathHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/main.o /Users/dsurrao/Documents/Projects/MathHelp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelpAppDelegate.o /Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionViewController.o /Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/NumberParser.o /Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerMultiplication.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerSubtraction.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerDivision.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DigitField.o /Users/dsurrao/Documents/Projects/MathHelp/DigitField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Utilities.o /Users/dsurrao/Documents/Projects/MathHelp/Utilities.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Operation.o /Users/dsurrao/Documents/Projects/MathHelp/Operation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/CarryOperation.o /Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionMainViewController.o /Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationOperation.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationViewController.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/AdditionOperation.o /Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationMainViewController.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MainMenuController.o /Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp normal i386
+cGenerateDSYMFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app.dSYM /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp
+cTouch /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.h
+c000000004D6D6D440000000000000291
+t1299017028
+s657
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m
+c000000004D82AAE20000000000001135
+t1300409058
+s4405
+i"AdditionOperation.h"
+i"NumberParser.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.h
+c000000004D2A05E90000000000000249
+t1294599657
+s585
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"DigitField.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m
+c000000004D2A06D90000000000000AFC
+t1294599897
+s2812
+i"CarryOperation.h"
+i"DigitField.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.h
+c000000004CDEFFB40000000000000219
+t1289682868
+s537
+i<UIKit/UIKit.h>
+i"DivisionViewController.h"
+i"DivisionMainViewController.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m
+c000000004D7B9C7C0000000000000654
+t1299946620
+s1620
+i"MathHelpAppDelegate.h"
+i"DivisionViewController.h"
+i"DivisionMainViewController.h"
+i"MultiplicationViewController.h"
+i"MultiplicationMainViewController.h"
+i"MainMenuController.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DigitField.h
+c000000004D82A5A100000000000003AE
+t1300407713
+s942
+i<Foundation/Foundation.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DigitField.m
+c000000004D82A5DD000000000000059B
+t1300407773
+s1435
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Division.xib
+c000000004D17700500000000000139A7
+t1293381637
+s80295
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib
+c000000004D9DA4C20000000000005467
+t1302176962
+s21607
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.h
+c000000004D2BEEA40000000000000299
+t1294724772
+s665
+i<UIKit/UIKit.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m
+c000000004D2BEFA0000000000000108E
+t1294725024
+s4238
+i"DivisionMainViewController.h"
+i"DivisionViewController.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.h
+c000000004D29F528000000000000141C
+t1294595368
+s5148
+i<UIKit/UIKit.h>
+i"DigitField.h"
+i"Utilities.h"
+i"Operation.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m
+c000000004D2A00690000000000004A54
+t1294598249
+s19028
+i"DivisionViewController.h"
+i"NumberParser.h"
+i"Operation.h"
+i"IntegerDivision.h"
+i"IntegerMultiplication.h"
+i"IntegerAddition.h"
+i"IntegerSubtraction.h"
+i"CarryOperation.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerAddition.h
+c000000004C55EB7400000000000001B5
+t1280699252
+s437
+i<Foundation/Foundation.h>
+i"Operation.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.h
+c000000004D23D6CE000000000000021A
+t1294194382
+s538
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m
+c000000004D29FC180000000000000BD1
+t1294597144
+s3025
+i"IntegerDivision.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.h
+c000000004D4008E9000000000000032B
+t1296042217
+s811
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m
+c000000004D6D6A880000000000000CA7
+t1299016328
+s3239
+i"IntegerMultiplication.h"
+i"Utilities.h"
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.h
+c000000004D2A04820000000000000284
+t1294599298
+s644
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m
+c000000004D2A048A0000000000000C7F
+t1294599306
+s3199
+i"IntegerSubtraction.h"
+i"Utilities.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib
+c000000004D9DA487000000000000624A
+t1302176903
+s25162
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.h
+c000000004D7B9A6E0000000000000219
+t1299946094
+s537
+i<UIKit/UIKit.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m
+c000000004D7F49900000000000000966
+t1300187536
+s2406
+i"MainMenuController.h"
+i"MultiplicationMainViewController.h"
+i"DivisionMainViewController.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib
+c000000004BEF07A20000000000004702
+t1273956258
+s18178
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MathHelp-Info.plist
+c000000004DB1804400000000000003C2
+t1303478340
+s962
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MathHelp_Prefix.pch
+c000000004BEC567700000000000000B9
+t1273779831
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib
+c000000004D78D6070000000000016078
+t1299764743
+s90232
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib
+c000000004D9DA4A5000000000000547F
+t1302176933
+s21631
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.h
+c000000004D7B8E89000000000000029B
+t1299943049
+s667
+i<UIKit/UIKit.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m
+c000000004D7B934C0000000000001109
+t1299944268
+s4361
+i"MultiplicationMainViewController.h"
+i"MultiplicationViewController.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.h
+c000000004D6D6C7E0000000000000352
+t1299016830
+s850
+i<Foundation/Foundation.h>
+i"Operation.h"
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m
+c000000004D82A95800000000000012AD
+t1300408664
+s4781
+i"MultiplicationOperation.h"
+i"NumberParser.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.h
+c000000004D7F695C00000000000012BE
+t1300195676
+s4798
+i<UIKit/UIKit.h>
+i"DigitField.h"
+i"Operation.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m
+c000000004DB17EBC0000000000006EF1
+t1303477948
+s28401
+i"MultiplicationViewController.h"
+i"NumberParser.h"
+i"MultiplicationOperation.h"
+i"AdditionOperation.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/NumberParser.h
+c000000004C0401660000000000000113
+t1275330918
+s275
+i<Foundation/Foundation.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m
+c000000004D7F624500000000000003DB
+t1300193861
+s987
+i"NumberParser.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Operation.h
+c000000004D17A42500000000000001E5
+t1293394981
+s485
+i<Foundation/Foundation.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Operation.m
+c000000004D17A4F80000000000000229
+t1293395192
+s553
+i"Operation.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Utilities.h
+c000000004D162877000000000000046E
+t1293297783
+s1134
+i<Foundation/Foundation.h>
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/Utilities.m
+c000000004D84EF0C00000000000012AD
+t1300557580
+s4781
+i"Utilities.h"
+i"NumberParser.h"
+i"DigitField.h"
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app
+t1300560059
+s476
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app.dSYM
+t1300560059
+s102
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Division.nib
+t1300560054
+s10907
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/DivisionMain.nib
+t1300560054
+s2549
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Info.plist
+t1300560053
+s594
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MainMenu.nib
+t1300560055
+s3813
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MainWindow.nib
+t1300560054
+s1952
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp
+t1300560059
+s160304
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp-Info.plist
+t1300560054
+s468
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Multiplication.nib
+t1300560055
+s12245
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MultiplicationMain.nib
+t1300560055
+s2554
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/PkgInfo
+t1300560053
+s8
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/icon.png
+t1300560054
+s3110
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/multiplication-problems.plist
+t1300560054
+s649
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/problems.plist
+t2
+s0
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/AdditionOperation.o
+t1300560058
+s47508
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/CarryOperation.o
+t1300560058
+s47600
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DigitField.o
+t1300560058
+s41624
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionMainViewController.o
+t1300560058
+s59748
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionViewController.o
+t1300560058
+s113748
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerDivision.o
+t1300560058
+s46972
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerMultiplication.o
+t1300560057
+s47908
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerSubtraction.o
+t1300560057
+s47728
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MainMenuController.o
+t1300560059
+s44884
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelp.LinkFileList
+c000000004D84F8B500000000000009DC
+t1300560053
+s2524
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelpAppDelegate.o
+t1300560057
+s51284
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationMainViewController.o
+t1300560059
+s59800
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationOperation.o
+t1300560058
+s48228
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationViewController.o
+t1300560059
+s118824
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/NumberParser.o
+t1300560057
+s9064
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Operation.o
+t1300560058
+s38792
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Utilities.o
+t1300560058
+s46148
+
+N/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/main.o
+t1300560057
+s6296
+
+N/Users/dsurrao/Documents/Projects/MathHelp/icon.png
+c000000004D23DF470000000000000C26
+t1294196551
+s3110
+
+N/Users/dsurrao/Documents/Projects/MathHelp/main.m
+c000000004BEC5677000000000000016C
+t1273779831
+s364
+i<UIKit/UIKit.h>
+
+N/Users/dsurrao/Documents/Projects/MathHelp/multiplication-problems.plist
+c000000004D9DA2B60000000000000EAD
+t1302176438
+s3757
+
+N/Users/dsurrao/Documents/Projects/MathHelp/problems.plist
+c000000004D9DA44C0000000000000E8B
+t1302176844
+s3723
+
+N/var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-bpbvllanuhiweebveyyblxqimbxh/MathHelp_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch.gch
+t1300560057
+s15133904
+
+NMathHelp-Info.plist
+c000000004DB1804400000000000003C2
+t1303478340
+s962
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322252853#322252853#0(115"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'MathHelp-Info.plist'.1(22@108"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'MathHelp-Info.plist'.322252853#18446744073709551615#0#0(1@0"0(0#1#0"8610335072#0"0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/AdditionOperation.o /Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.648884
+e322252858.823066
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/AdditionOperation.o
+x/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m: In function '-[AdditionOperation compute]':
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:46: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:49: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m: In function '-[AdditionOperation getHint]':
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:70: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast
+o/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:75: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast
+lSLF07#2@70"Compile /Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m322252858#322252858#0(912"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m: In function '-[AdditionOperation compute]':/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:46: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:49: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m: In function '-[AdditionOperation getHint]':/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:70: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m:75: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast4(22@97"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast322252858#108#174#0(6@62"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m322101858#46#0#46#0#0"0(22@97"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast322252858#282#174#0(6@62"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m322101858#49#0#49#0#0"0(22@97"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast322252858#564#174#0(6@62"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m322101858#70#0#70#0#0"0(22@97"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct DigitField *' lacks a cast322252858#738#174#0(6@62"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m322101858#75#0#75#0#0"0(0#0#62"/Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m8612820320#2108"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/AdditionOperation.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/AdditionOperation.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/CarryOperation.o /Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.327126
+e322252858.475151
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/CarryOperation.o
+x/Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m322252858#322252858#0(0"0(0#0#59"/Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m8610741376#2102"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/CarryOperation.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/CarryOperation.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DigitField.o /Users/dsurrao/Documents/Projects/MathHelp/DigitField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.012661
+e322252858.106675
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DigitField.o
+x/Users/dsurrao/Documents/Projects/MathHelp/DigitField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/dsurrao/Documents/Projects/MathHelp/DigitField.m322252858#322252858#0(0"0(0#0#55"/Users/dsurrao/Documents/Projects/MathHelp/DigitField.m8609471904#2094"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/DigitField.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DigitField.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionMainViewController.o /Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.377072
+e322252858.617549
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionMainViewController.o
+x/Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m322252858#322252858#0(0"0(0#0#71"/Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m8609361984#2126"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/DivisionMainViewController.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionMainViewController.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionViewController.o /Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.448629
+e322252858.376960
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionViewController.o
+x/Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m322252857#322252858#0(0"0(0#0#67"/Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m8612710880#2118"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/DivisionViewController.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/DivisionViewController.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerDivision.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.889940
+e322252858.012404
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerDivision.o
+x/Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m322252857#322252858#0(0"0(0#0#60"/Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m8612814848#2104"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/IntegerDivision.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerDivision.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerMultiplication.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.588727
+e322252857.761687
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerMultiplication.o
+x/Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m322252857#322252857#0(0"0(0#0#66"/Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m8603957152#2116"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/IntegerMultiplication.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerMultiplication.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerSubtraction.o /Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.761785
+e322252857.889843
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerSubtraction.o
+x/Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m322252857#322252857#0(0"0(0#0#63"/Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m8613225984#2110"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/IntegerSubtraction.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/IntegerSubtraction.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MainMenuController.o /Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252859.037968
+e322252859.145723
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MainMenuController.o
+x/Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m322252859#322252859#0(0"0(0#0#63"/Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m8613679808#2110"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/MainMenuController.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MainMenuController.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelpAppDelegate.o /Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.391891
+e322252857.510468
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelpAppDelegate.o
+x/Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m322252857#322252857#0(0"0(0#0#72"/Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m8613182560#2120"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/Classes/MathHelpAppDelegate.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelpAppDelegate.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationMainViewController.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.823171
+e322252859.037801
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationMainViewController.o
+x/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m322252858#322252859#0(0"0(0#0#77"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m8608995968#2138"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMainViewController.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationMainViewController.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationOperation.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.475258
+e322252858.648776
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationOperation.o
+x/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m322252858#322252858#0(0"0(0#0#68"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m8612393120#2120"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationOperation.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationOperation.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationViewController.o /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.617649
+e322252859.438270
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationViewController.o
+x/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m: In function '-[MultiplicationViewController undoLastStep:]':
+o/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:504: warning: incompatible Objective-C types assigning 'struct MultiplicationOperation *', expected 'struct AdditionOperation *'
+o/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m: In function '-[MultiplicationViewController getNextOp]':
+o/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:578: warning: incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'
+o/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:586: warning: incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'
+lSLF07#2@81"Compile /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m322252858#322252859#0(829"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m: In function '-[MultiplicationViewController undoLastStep:]':/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:504: warning: incompatible Objective-C types assigning 'struct MultiplicationOperation *', expected 'struct AdditionOperation *'/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m: In function '-[MultiplicationViewController getNextOp]':/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:578: warning: incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m:586: warning: incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'3(22@114"Incompatible Objective-C types assigning 'struct MultiplicationOperation *', expected 'struct AdditionOperation *'322252858#136#203#0(6@73"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m322104967#504#0#504#0#58"incompatible Objective-C types assigning '*', expected '*'0(22@90"Incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'322252858#471#179#0(6@73"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m322104967#578#0#578#0#58"incompatible Objective-C types assigning '*', expected '*'0(22@90"Incompatible Objective-C types assigning 'struct NSNull *', expected 'struct DigitField *'322252858#650#179#0(6@73"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m322104967#586#0#586#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#73"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m8613511040#2130"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationViewController.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MultiplicationViewController.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/NumberParser.o /Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.510572
+e322252857.588623
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/NumberParser.o
+x/Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m322252857#322252857#0(0"0(0#0#57"/Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m8609502816#2098"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/NumberParser.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/NumberParser.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Operation.o /Users/dsurrao/Documents/Projects/MathHelp/Operation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.241489
+e322252858.327026
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Operation.o
+x/Users/dsurrao/Documents/Projects/MathHelp/Operation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/dsurrao/Documents/Projects/MathHelp/Operation.m322252858#322252858#0(0"0(0#0#54"/Users/dsurrao/Documents/Projects/MathHelp/Operation.m8613138240#2092"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/Operation.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Operation.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Utilities.o /Users/dsurrao/Documents/Projects/MathHelp/Utilities.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252858.106783
+e322252858.241387
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Utilities.o
+x/Users/dsurrao/Documents/Projects/MathHelp/Utilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/dsurrao/Documents/Projects/MathHelp/Utilities.m322252858#322252858#0(0"0(0#0#54"/Users/dsurrao/Documents/Projects/MathHelp/Utilities.m8613676224#2092"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/Utilities.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/Utilities.o0#
+
+CCompileC build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/main.o /Users/dsurrao/Documents/Projects/MathHelp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252857.390361
+e322252857.448521
+r1
+xCompileC
+xbuild/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/main.o
+x/Users/dsurrao/Documents/Projects/MathHelp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/dsurrao/Documents/Projects/MathHelp/main.m322252857#322252857#0(0"0(0#0#49"/Users/dsurrao/Documents/Projects/MathHelp/main.m8613361664#2082"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch -c /Users/dsurrao/Documents/Projects/MathHelp/main.m -o /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/Division.xib
+s322252853.868079
+e322252854.543120
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/Division.xib
+lSLF07#2@23"CompileXIB Division.xib322252853#322252854#0(0"0(0#0#55"/Users/dsurrao/Documents/Projects/MathHelp/Division.xib8609665920#586"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Division.nib /Users/dsurrao/Documents/Projects/MathHelp/Division.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib
+s322252853.868786
+e322252854.310646
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib
+lSLF07#2@27"CompileXIB DivisionMain.xib322252853#322252854#0(0"0(0#0#59"/Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib8609255168#594"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/DivisionMain.nib /Users/dsurrao/Documents/Projects/MathHelp/DivisionMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib
+s322252855.367228
+e322252855.809503
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib
+lSLF07#2@23"CompileXIB MainMenu.xib322252855#322252855#0(0"0(0#0#55"/Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib8613590400#586"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MainMenu.nib /Users/dsurrao/Documents/Projects/MathHelp/MainMenu.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib
+s322252854.356485
+e322252854.748681
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322252854#322252854#0(0"0(0#0#57"/Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib8613781824#590"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MainWindow.nib /Users/dsurrao/Documents/Projects/MathHelp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib
+s322252854.544227
+e322252855.425449
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib
+lSLF07#2@29"CompileXIB Multiplication.xib322252854#322252855#0(0"0(0#0#61"/Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib8612941312#598"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Multiplication.nib /Users/dsurrao/Documents/Projects/MathHelp/Multiplication.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib
+s322252854.748765
+e322252855.367058
+r1
+xCompileXIB
+x/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib
+lSLF07#2@33"CompileXIB MultiplicationMain.xib322252854#322252855#0(0"0(0#0#65"/Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib8612409312#606"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MultiplicationMain.nib /Users/dsurrao/Documents/Projects/MathHelp/MultiplicationMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp-Info.plist MathHelp-Info.plist
+s322252854.334101
+e322252854.356373
+r1
+xCopyPlistFile
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp-Info.plist
+xMathHelp-Info.plist
+lSLF07#2@24"Copy MathHelp-Info.plist322252854#322252854#0(0"0(0#0#62"/Users/dsurrao/Documents/Projects/MathHelp/MathHelp-Info.plist8614010208#410"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 MathHelp-Info.plist --outdir /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app0#
+
+CCopyPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/multiplication-problems.plist multiplication-problems.plist
+s322252854.310747
+e322252854.334008
+r1
+xCopyPlistFile
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/multiplication-problems.plist
+xmultiplication-problems.plist
+lSLF07#2@34"Copy multiplication-problems.plist322252854#322252854#0(0"0(0#0#72"/Users/dsurrao/Documents/Projects/MathHelp/multiplication-problems.plist8616298528#420"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 multiplication-problems.plist --outdir /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app0#
+
+CCopyPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/problems.plist problems.plist
+r0
+
+CCpResource build/Distribution-iphonesimulator/MathHelp.app/icon.png icon.png
+s322252854.543210
+e322252854.609914
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/MathHelp.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png322252854#322252854#0(0"0(0#0#51"/Users/dsurrao/Documents/Projects/MathHelp/icon.png8612965472#507"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/dsurrao/Documents/Projects/MathHelp/icon.png /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app0#
+
+CGenerateDSYMFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app.dSYM /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp
+s322252859.479008
+e322252859.527743
+r1
+xGenerateDSYMFile
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app.dSYM
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp
+lSLF07#2@126"GenerateDSYMFile build/Distribution-iphonesimulator/MathHelp.app.dSYM build/Distribution-iphonesimulator/MathHelp.app/MathHelp322252859#322252859#0(0"0(0#0#99"/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp8612097184#412"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp -o /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app.dSYM0#
+
+CLd /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp normal i386
+s322252859.438364
+e322252859.478901
+r1
+xLd
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp
+xnormal
+xi386
+lSLF07#2@104"Link /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp322252859#322252859#0(0"0(0#0#0"8610749248#953"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -filelist /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/Objects-normal/i386/MathHelp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/MathHelp0#
+
+CProcessInfoPlistFile /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Info.plist MathHelp-Info.plist
+s322252853.864158
+e322252853.868000
+r1
+xProcessInfoPlistFile
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Info.plist
+xMathHelp-Info.plist
+lSLF07#2@27"Process MathHelp-Info.plist322252853#322252853#0(0"0(0#0#62"/Users/dsurrao/Documents/Projects/MathHelp/MathHelp-Info.plist8609997344#508"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MathHelp-Info.plist -genpkginfo /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app/Info.plist0#
+
+CProcessPCH /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-bpbvllanuhiweebveyyblxqimbxh/MathHelp_Prefix.pch.gch MathHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch.gch MathHelp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322252855.809658
+e322252857.389930
+r1
+xProcessPCH
+x/var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch.gch
+xMathHelp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile MathHelp_Prefix.pch322252855#322252857#0(0"0(0#0#62"/Users/dsurrao/Documents/Projects/MathHelp/MathHelp_Prefix.pch8609845824#1962"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-generated-files.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-own-target-headers.hmap -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-all-target-headers.hmap -iquote /Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/MathHelp-project-headers.hmap -F/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator -I/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/include -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources/i386 -I/Users/dsurrao/Documents/Projects/MathHelp/build/MathHelp.build/Distribution-iphonesimulator/MathHelp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/dsurrao/Documents/Projects/MathHelp/MathHelp_Prefix.pch -o /var/folders/mg/mgNMy0SZHWeKeam7d6AbUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MathHelp_Prefix-gtlmxdrssxiofvcccghczvlejfcj/MathHelp_Prefix.pch.gch0#
+
+CTouch /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app
+s322252859.527840
+e322252859.531198
+r1
+xTouch
+x/Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app
+lSLF07#2@96"Touch /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app322252859#322252859#0(0"0(0#0#0"8610665696#294"    cd /Users/dsurrao/Documents/Projects/MathHelp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dsurrao/Documents/Projects/MathHelp/build/Distribution-iphonesimulator/MathHelp.app0#
+

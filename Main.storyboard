@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NRd-PX-YGx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="WDZ-Rz-bzF">
+            <objects>
+                <navigationController id="NRd-PX-YGx" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Kv-X2-ZAs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wjG-Nr-C00" kind="relationship" relationship="rootViewController" id="Wiu-Pk-xHz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7MF-8j-Fz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1535" y="211"/>
+        </scene>
+        <!--Main Menu Controller-->
+        <scene sceneID="MZd-KI-PT8">
+            <objects>
+                <viewController id="wjG-Nr-C00" customClass="MainMenuController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hGF-3l-zi7"/>
+                        <viewControllerLayoutGuide type="bottom" id="aQe-mX-3DT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A0N-Eg-vJg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fk3-fV-ESh">
+                                <rect key="frame" x="81" y="167" width="158" height="40"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Multiplication">
+                                            <attributes>
+                                                <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="loadMultiplicationView:" destination="wjG-Nr-C00" eventType="touchDown" id="EH2-eX-FaT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4zc-SP-Lyt">
+                                <rect key="frame" x="115" y="243" width="90" height="40"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Division">
+                                            <attributes>
+                                                <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="loadDivisionView:" destination="wjG-Nr-C00" eventType="touchDown" id="FG4-P5-ogt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2T-Dr-vzd">
+                                <rect key="frame" x="31" y="90" width="259" height="40"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Welcome To MathHelper!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZTW-qe-cFR">
+                                <rect key="frame" x="26" y="325" width="269" height="49"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Division With Remainders">
+                                            <attributes>
+                                                <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="loadDivisionRemainderView:" destination="wjG-Nr-C00" eventType="touchDown" id="Nw0-iC-l9y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PwV-2e-wtf">
+                                <rect key="frame" x="113" y="400" width="95" height="30"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Rate this app!">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="openInAppStore:" destination="wjG-Nr-C00" eventType="touchDown" id="3id-u4-Nne"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O1G-xm-KKE"/>
+                    <connections>
+                        <outlet property="divisionButton" destination="4zc-SP-Lyt" id="P7M-oz-8e9"/>
+                        <outlet property="divisionRemainderButton" destination="ZTW-qe-cFR" id="5ud-Ti-cG7"/>
+                        <outlet property="multiplicationButton" destination="fk3-fV-ESh" id="ag1-1Q-Awb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6S-te-UeR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1141" y="225"/>
+        </scene>
+    </scenes>
+</document>

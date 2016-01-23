@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	0B074B7513801FF80084F63E /* DivisionRemainderViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 2114}}";
+			sepNavSelRange = "{6809, 0}";
+			sepNavVisRange = "{5262, 1822}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1179, 12950}}";
+			sepNavSelRange = "{23184, 0}";
+			sepNavVisRange = "{22530, 992}";
+			sepNavWindowFrame = "{{14, 103}, {949, 667}}";
+		};
+	};
+	0B093919148617F6001B02C1 /* DivisionRemainderMainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 516}}";
+			sepNavSelRange = "{629, 0}";
+			sepNavVisRange = "{0, 687}";
+		};
+	};
+	0B09391A148617F6001B02C1 /* DivisionRemainderMainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1568}}";
+			sepNavSelRange = "{1936, 0}";
+			sepNavVisRange = "{1642, 1517}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B1362D414C9720300B1D5E1 /* DivisionRemainderViewController.m:243 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-checkForCorrectEntryOnEdit:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 243;
+		location = MathHelp;
+		modificationTime = 348748743.8233088;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B1F154612B3D3CE00CF7BDA /* CarryOperation.h:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BB7169B12045A5000182E90 /* CarryOperation.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		modificationTime = 348748848.011646;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B22DE2614D6C48000C85563 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0BBD5A3212B3F6CB00260F89 /* MathHelp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dsurrao/Documents/Projects/MathHelp/MathHelp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	0B22DE3314D6C52200C85563 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0BBD5A3212B3F6CB00260F89 /* MathHelp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dsurrao/Documents/Projects/MathHelp/MathHelp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	0B2AD5DD131980BC001248BF /* MultiplicationViewController.m:641 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 641;
+		location = MathHelp;
+		modificationTime = 348748743.822426;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B2C990211D661540074C897 /* Utilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 714}}";
+			sepNavSelRange = "{1091, 0}";
+			sepNavVisRange = "{140, 987}";
+		};
+	};
+	0B2C990311D661540074C897 /* Utilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2408}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRange = "{0, 996}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B49B114119C8DF7003FACC9 /* MathHelp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MathHelp;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0B49B124119C8E0C003FACC9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0B49B125119C8E0C003FACC9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0B7CFCE914A8CF8A004AA904 /* DivisionRemainderViewController.h:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7513801FF80084F63E /* DivisionRemainderViewController.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		modificationTime = 348748848.011664;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B7E7AE913229E5100438B82 /* MultiplicationViewController.m:413 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-undoLastStep:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 413;
+		location = MathHelp;
+		modificationTime = 348748743.8226711;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7EBA2B1361ABCF00EC459F /* MultiplicationViewController.m:357 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-doNextStep:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 357;
+		location = MathHelp;
+		modificationTime = 348748743.8227611;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ECFA81321AFCB00E5BC2F /* MultiplicationViewController.m:303 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-doNextStep:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 303;
+		location = MathHelp;
+		modificationTime = 348748743.8224989;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ECFCE1321B1A600E5BC2F /* MultiplicationViewController.m:584 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-getNextOp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 584;
+		location = MathHelp;
+		modificationTime = 348748743.822522;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ECFE41321B21A00E5BC2F /* MultiplicationViewController.m:587 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-getNextOp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 587;
+		location = MathHelp;
+		modificationTime = 348748743.822538;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ED0301321B72F00E5BC2F /* MultiplicationViewController.m:306 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-doNextStep:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 306;
+		location = MathHelp;
+		modificationTime = 348748743.822573;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ED0371321B75C00E5BC2F /* MultiplicationViewController.m:352 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */;
+		functionName = "-doNextStep:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 352;
+		location = MathHelp;
+		modificationTime = 348748743.822593;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7ED0911321C3E700E5BC2F /* MultiplicationOperation.m:91 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 91;
+		location = MathHelp;
+		modificationTime = 348748743.822655;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B7F47021413E96E002A5B05 /* MultiplicationStep.m:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B8081C1139A1210006A315A /* MultiplicationStep.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 75;
+		location = MathHelp;
+		modificationTime = 348748743.823156;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B7F47D91413FA84002A5B05 /* CarryStep.m:60 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B8081D1139A1512006A315A /* CarryStep.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 60;
+		location = MathHelp;
+		modificationTime = 348748743.823203;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B7FA08E13AD6DB50092396B /* DivisionRemainderViewController.m:615 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-getNextMultiplicationStep";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 615;
+		location = MathHelp;
+		modificationTime = 348748743.822939;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B8081B6139A10B8006A315A /* Step.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 516}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{0, 402}";
+		};
+	};
+	0B8081B7139A10B8006A315A /* Step.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 516}}";
+			sepNavSelRange = "{443, 0}";
+			sepNavVisRange = "{0, 449}";
+		};
+	};
+	0B8081BB139A10DB006A315A /* DivisionStep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{520, 29}";
+			sepNavVisRange = "{0, 556}";
+		};
+	};
+	0B8081BC139A10DB006A315A /* DivisionStep.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1806}}";
+			sepNavSelRange = "{765, 0}";
+			sepNavVisRange = "{190, 1232}";
+		};
+	};
+	0B8081C0139A1210006A315A /* MultiplicationStep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{611, 0}";
+			sepNavVisRange = "{0, 618}";
+		};
+	};
+	0B8081C1139A1210006A315A /* MultiplicationStep.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1652}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 1001}";
+		};
+	};
+	0B8081CB139A13AB006A315A /* SubtractionStep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{344, 0}";
+			sepNavVisRange = "{0, 592}";
+		};
+	};
+	0B8081CC139A13AB006A315A /* SubtractionStep.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1218}}";
+			sepNavSelRange = "{614, 0}";
+			sepNavVisRange = "{541, 1452}";
+		};
+	};
+	0B8081D0139A1512006A315A /* CarryStep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 516}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	0B8081D1139A1512006A315A /* CarryStep.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 1218}}";
+			sepNavSelRange = "{469, 0}";
+			sepNavVisRange = "{0, 790}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B80CCC113A3EBAC00A33A8B /* DivisionRemainderViewController.m:266 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-initializeDigitFields";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 266;
+		location = MathHelp;
+		modificationTime = 348748743.822797;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B80D9AE1431315F006ECFB9 /* DivisionRemainderViewController.m:243 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-checkForCorrectEntryOnEdit:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 243;
+		location = MathHelp;
+		modificationTime = 348748743.823222;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B80EEA41332DF6900FF54D3 /* MultiplicationOperation.m:114 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 114;
+		location = MathHelp;
+		modificationTime = 348748743.822687;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B80EECC1332E35300FF54D3 /* AdditionOperation.m:107 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 107;
+		location = MathHelp;
+		modificationTime = 348748743.82271;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B80F55814128CE800C708D6 /* DivisionRemainderViewController.m:243 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-doNextStepIBAction:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 243;
+		location = MathHelp;
+		modificationTime = 348748743.823088;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B82E5DB14D6BE8D0053432F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B8081D0139A1512006A315A /* CarryStep.h */;
+		name = "CarryStep.h: 23";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	0B82E60914D6C04C0053432F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		name = "DivisionRemainderViewController.m: 18";
+		rLen = 0;
+		rLoc = 400;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 0;
+	};
+	0B85A695132BC58500DAEF6E /* MultiplicationMainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 542}}";
+			sepNavSelRange = "{667, 0}";
+			sepNavVisRange = "{0, 667}";
+		};
+	};
+	0B85A696132BC58500DAEF6E /* MultiplicationMainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1778}}";
+			sepNavSelRange = "{3773, 576}";
+			sepNavVisRange = "{3, 1644}";
+		};
+	};
+	0B85A6EB132BCFC200DAEF6E /* MainMenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {905, 524}}";
+			sepNavSelRange = "{697, 0}";
+			sepNavVisRange = "{0, 697}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B85A6EC132BCFC200DAEF6E /* MainMenuController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1316}}";
+			sepNavSelRange = "{2864, 0}";
+			sepNavVisRange = "{1533, 1338}";
+		};
+	};
+	0B92D44A11C5C15600AFC056 /* DigitField.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 544}}";
+			sepNavSelRange = "{209, 0}";
+			sepNavVisRange = "{0, 1203}";
+			sepNavWindowFrame = "{{38, 85}, {949, 667}}";
+		};
+	};
+	0B92D44B11C5C15600AFC056 /* DigitField.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1232}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{0, 801}";
+		};
+	};
+	0B970B3111BC01ED00853861 /* IntegerMultiplication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{788, 16}";
+			sepNavVisRange = "{0, 811}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B970B3211BC01ED00853861 /* IntegerMultiplication.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1722}}";
+			sepNavSelRange = "{3089, 84}";
+			sepNavVisRange = "{2230, 1009}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B970B3811BC028B00853861 /* IntegerSubtraction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 644}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B970B3911BC028B00853861 /* IntegerSubtraction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1694}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 754}";
+		};
+	};
+	0B970B3D11BC02F500853861 /* IntegerDivision.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 521}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 538}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B970B3E11BC02F500853861 /* IntegerDivision.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1414}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{1802, 1171}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0B9DFF77134DDCAB00091544 /* problems.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {898, 3164}}";
+			sepNavSelRange = "{3341, 0}";
+			sepNavVisRect = "{{0, 2632}, {898, 507}}";
+		};
+	};
+	0BA1E36412464428005910FA /* DivisionMainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{659, 0}";
+			sepNavVisRange = "{0, 665}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BA1E36512464428005910FA /* DivisionMainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1778}}";
+			sepNavSelRange = "{4229, 0}";
+			sepNavVisRange = "{40, 1534}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BA67EA212A1A401002DC328 /* multiplication-problems.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 3164}}";
+			sepNavSelRange = "{3672, 0}";
+			sepNavVisRange = "{0, 743}";
+			sepNavVisRect = "{{0, 1994}, {901, 521}}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BAFE5E911A0CDC500A8D90D /* DivisionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1876}}";
+			sepNavSelRange = "{4346, 0}";
+			sepNavVisRange = "{2905, 2238}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 7532}}";
+			sepNavSelRange = "{908, 0}";
+			sepNavVisRange = "{700, 1470}";
+			sepNavWindowFrame = "{{38, 85}, {949, 667}}";
+		};
+	};
+	0BB16FA911A9CEDC0063B100 /* NumberParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{220, 48}";
+			sepNavVisRange = "{0, 275}";
+		};
+	};
+	0BB16FAA11A9CEDC0063B100 /* NumberParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 546}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRange = "{0, 987}";
+		};
+	};
+	0BB3C1F712BA4ADD00B4DB78 /* DivisionViewController.m:458 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */;
+		functionName = "-textField:shouldChangeCharactersInRange:replacementString:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 458;
+		location = MathHelp;
+		modificationTime = 348748743.8223399;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0BB7169B12045A5000182E90 /* CarryOperation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 516}}";
+			sepNavSelRange = "{585, 0}";
+			sepNavVisRange = "{0, 585}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BB7169C12045A5000182E90 /* CarryOperation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 1386}}";
+			sepNavSelRange = "{2193, 0}";
+			sepNavVisRange = "{369, 1449}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BB83AE012D8C762003D15EF /* MathHelpAppDelegate.h:11 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623240D0F684500981E51 /* MathHelpAppDelegate.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 11;
+		modificationTime = 348748848.011597;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0BBD5A3212B3F6CB00260F89 /* MathHelp-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 544}}";
+			sepNavSelRange = "{962, 0}";
+			sepNavVisRect = "{{0, 0}, {946, 544}}";
+			sepNavWindowFrame = "{{38, 85}, {949, 667}}";
+		};
+	};
+	0BBD780712C670A900045094 /* DivisionViewController.m:287 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BAFE5EA11A0CDC500A8D90D /* DivisionViewController.m */;
+		functionName = "-getNextOp";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 287;
+		location = MathHelp;
+		modificationTime = 348748743.822354;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0BBE195A131DBA820033B680 /* AdditionOperation.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */;
+		functionName = "-getHint";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = MathHelp;
+		modificationTime = 348748743.822452;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0BC05E851203C9C400E06FDC /* Operation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{246, 23}";
+			sepNavVisRange = "{0, 485}";
+		};
+	};
+	0BC05E861203C9C400E06FDC /* Operation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 644}}";
+			sepNavSelRange = "{242, 39}";
+			sepNavVisRange = "{32, 502}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BC0F74712FDCFDC00DFE272 /* AdditionOperation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{448, 184}";
+			sepNavVisRange = "{0, 657}";
+		};
+	};
+	0BC0F74812FDCFDC00DFE272 /* AdditionOperation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 2226}}";
+			sepNavSelRange = "{4128, 0}";
+			sepNavVisRange = "{3, 1124}";
+		};
+	};
+	0BC3937412F472BC0026ED3E /* MultiplicationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1694}}";
+			sepNavSelRange = "{4433, 26}";
+			sepNavVisRange = "{3, 1180}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BC3937512F472BC0026ED3E /* MultiplicationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 10640}}";
+			sepNavSelRange = "{200, 12}";
+			sepNavVisRange = "{0, 991}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BDA8A1212B3102E00C53760 /* CarryOperation.m:77 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BB7169C12045A5000182E90 /* CarryOperation.m */;
+		functionName = "-checkForCorrectEntry:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 77;
+		location = MathHelp;
+		modificationTime = 348748743.822221;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0BF0E7AB12F0407F008AD03E /* MultiplicationOperation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{850, 0}";
+			sepNavVisRange = "{0, 850}";
+		};
+	};
+	0BF0E7AC12F0407F008AD03E /* MultiplicationOperation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 2002}}";
+			sepNavSelRange = "{3012, 56}";
+			sepNavVisRange = "{3011, 1254}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	0BFC08EF140012A2007C16D2 /* DivisionRemainderViewController.m:695 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0B074B7613801FF80084F63E /* DivisionRemainderViewController.m */;
+		functionName = "-getNextStep";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 695;
+		location = MathHelp;
+		modificationTime = 348748743.823009;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0BFCE6EC12DC174B00C61B0E /* Entitlements.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 353}}";
+			sepNavSelRange = "{544, 0}";
+			sepNavVisRect = "{{0, 0}, {768, 353}}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* MathHelpAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {905, 524}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 537}";
+			sepNavWindowFrame = "{{15, 106}, {949, 667}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MathHelpAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 546}}";
+			sepNavSelRange = "{1129, 0}";
+			sepNavVisRange = "{3, 1133}";
+			sepNavWindowFrame = "{{38, 85}, {949, 667}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MathHelp */ = {
+		activeExec = 0;
+		executables = (
+			0B49B114119C8DF7003FACC9 /* MathHelp */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 0B49B114119C8DF7003FACC9 /* MathHelp */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MathHelp */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MathHelp */,
+		);
+		breakpoints = (
+			0BDA8A1212B3102E00C53760 /* CarryOperation.m:77 */,
+			0B1F154612B3D3CE00CF7BDA /* CarryOperation.h:22 */,
+			0BB3C1F712BA4ADD00B4DB78 /* DivisionViewController.m:458 */,
+			0BBD780712C670A900045094 /* DivisionViewController.m:287 */,
+			0BB83AE012D8C762003D15EF /* MathHelpAppDelegate.h:11 */,
+			0B2AD5DD131980BC001248BF /* MultiplicationViewController.m:641 */,
+			0BBE195A131DBA820033B680 /* AdditionOperation.m:66 */,
+			0B7ECFA81321AFCB00E5BC2F /* MultiplicationViewController.m:303 */,
+			0B7ECFCE1321B1A600E5BC2F /* MultiplicationViewController.m:584 */,
+			0B7ECFE41321B21A00E5BC2F /* MultiplicationViewController.m:587 */,
+			0B7ED0301321B72F00E5BC2F /* MultiplicationViewController.m:306 */,
+			0B7ED0371321B75C00E5BC2F /* MultiplicationViewController.m:352 */,
+			0B7ED0911321C3E700E5BC2F /* MultiplicationOperation.m:91 */,
+			0B7E7AE913229E5100438B82 /* MultiplicationViewController.m:413 */,
+			0B80EEA41332DF6900FF54D3 /* MultiplicationOperation.m:114 */,
+			0B80EECC1332E35300FF54D3 /* AdditionOperation.m:107 */,
+			0B7EBA2B1361ABCF00EC459F /* MultiplicationViewController.m:357 */,
+			0B80CCC113A3EBAC00A33A8B /* DivisionRemainderViewController.m:266 */,
+			0B7FA08E13AD6DB50092396B /* DivisionRemainderViewController.m:615 */,
+			0BFC08EF140012A2007C16D2 /* DivisionRemainderViewController.m:695 */,
+			0B80F55814128CE800C708D6 /* DivisionRemainderViewController.m:243 */,
+			0B7F47021413E96E002A5B05 /* MultiplicationStep.m:75 */,
+			0B7F47D91413FA84002A5B05 /* CarryStep.m:60 */,
+			0B80D9AE1431315F006ECFB9 /* DivisionRemainderViewController.m:243 */,
+			0B7CFCE914A8CF8A004AA904 /* DivisionRemainderViewController.h:87 */,
+			0B1362D414C9720300B1D5E1 /* DivisionRemainderViewController.m:243 */,
+		);
+		codeSenseManager = 0B49B125119C8E0C003FACC9 /* Code sense */;
+		executables = (
+			0B49B114119C8DF7003FACC9 /* MathHelp */,
+		);
+		expressions = (
+			outlineData,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					537.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					663,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					736,
+					20,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					614,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					725,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 349619292;
+			PBXWorkspaceStateSaveDate = 349619292;
+		};
+		perUserProjectItems = {
+			0B22DE2614D6C48000C85563 /* PlistBookmark */ = 0B22DE2614D6C48000C85563 /* PlistBookmark */;
+			0B22DE3314D6C52200C85563 /* PlistBookmark */ = 0B22DE3314D6C52200C85563 /* PlistBookmark */;
+			0B82E5DB14D6BE8D0053432F /* PBXTextBookmark */ = 0B82E5DB14D6BE8D0053432F /* PBXTextBookmark */;
+			0B82E60914D6C04C0053432F /* PBXTextBookmark */ = 0B82E60914D6C04C0053432F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0B49B124119C8E0C003FACC9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 542}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{0, 364}";
+			sepNavWindowFrame = "{{38, 85}, {949, 667}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MathHelp_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {986, 532}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+}
